@@ -35,7 +35,8 @@ struct Node {
 };
 
 class Model {
-  private:
+  //private:
+public:
     std::shared_ptr<Matrix> wi_;
     std::shared_ptr<Matrix> wo_;
     std::shared_ptr<Args> args_;

@@ -26,7 +26,8 @@
 namespace fasttext {
 
 class FastText {
-  private:
+public:
+ // private:
     std::shared_ptr<Args> args_;
     std::shared_ptr<Dictionary> dict_;
     std::shared_ptr<Matrix> input_;
